@@ -32,9 +32,9 @@ jobs:
       - name: env
         env:
           npm.dir: 'C:\hostedtoolcache\windows\node\14.18.3\x64'
-        run: echo %npm.dir%
+        run: env
         
-      - run: echo %NPM.DIR%
+      - run: printenv
         
       - id: main
         env:
