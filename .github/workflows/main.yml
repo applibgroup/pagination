@@ -27,7 +27,7 @@ jobs:
         run: npm install
        
       - name: npm version
-        run: dir C:\hostedtoolcache\windows\node\14.18.3\x64
+        run: npm install env-paths
         
       - name: env
         env:
