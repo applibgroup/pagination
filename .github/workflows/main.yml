@@ -22,6 +22,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         uses: applibgroup/HarmonyOsSdk@v1.7_test
+        with:
+          submodules: recursive
       - name: Upload Artifact
         uses: actions/upload-artifact@v2
         with: 
