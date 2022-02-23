@@ -2,29 +2,11 @@
 
 # Installation :
 
-1. Copy the neumorph_pagination folder in your repo.
-2. Add neumorphism as a dependency in your package.json file.
+Install using npm inside pages directory
 
-```json
-{
-  "dependencies": {
-    "neumorphism": "file:../neumorph_pagination"
-  }
-}
-```
+```npm init -y```
 
-# Note :
-
-Add this css snippet when passing input or button through slot .
-
-```css
-button, input{
-    width: 100%;
-    height: 100%;
-    background-color:transparent;
-    text-color: black;
-}
-```
+```npm i hmos-neumorphism ```
 
 # Pagination
 
@@ -32,7 +14,7 @@ button, input{
 
 Import:
 ```html
-<element name='neupagination' src='../../../../../../node_modules/neumorphism/pagination/pagination.hml'></element>
+<element name='neupagination' src='../node_modules/hmos-neumorphism/pagination/pagination.hml'></element>
 ```
 
 Usage:
